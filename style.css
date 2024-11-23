@@ -1,0 +1,15 @@
+/* Style to ensure all buttons are the same size */
+button {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+/* To create a row of 7 buttons */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 735px; /* 7 buttons x 105px (button width + margin) */
+    justify-content: space-between;
+}
